@@ -1,3 +1,4 @@
+
 # Changelog
 
 All notable changes to this project will be documented in this file.
@@ -10,6 +11,10 @@ NOTE: As semantic versioning states all 0.y.z releases can contain breaking chan
 We use _breaking :warning:_ to mark changes that are not backward compatible (relates only to v0.y.z releases.)
 
 ## Unreleased
+
+- [#3421](https://github.com/thanos-io/thanos/pull/3421) Tools: Added `thanos tools bucket rewrite` command allowing to delete series from given block.
+
+## v0.17.0
 
 ### Added
 

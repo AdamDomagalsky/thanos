@@ -109,8 +109,15 @@ func TestMeta_ReadWrite(t *testing.T) {
 		"source": "receive",
 		"files": [
 			{
+				"rel_path": "chunks/000001",
+				"size_bytes": 3751
+			},
+			{
 				"rel_path": "index",
-				"size_bytes": 1313
+				"size_bytes": 401
+			},
+			{
+				"rel_path": "meta.json"
 			}
 		]
 	}
